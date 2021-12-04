@@ -147,4 +147,14 @@ button:hover {
   }
 }
 
+@media (min-width: 2560px) {
+  .conversations {
+    width: 15%;
+  }
+
+  li {
+    font-size: x-large;
+  }
+}
+
 </style>

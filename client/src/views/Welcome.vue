@@ -3,7 +3,8 @@
     <div class="welcome">
       <h1>Welcome to Chat-App</h1>
       <p>
-        Chat-App is a realtime chat application that enables users to communicate with one another in realtime.
+        Chat-App is a realtime chat application built using Vue.js, Node.js, Express, MongoDB, and Socket.io in order
+        to enable users to communicate with one another in real time.
       </p>
       <p>To begin:</p>
       <button class="login-btn" v-on:click="loginRegisterHandler('Login')">Login</button>
@@ -41,7 +42,7 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 86vh;
+  height: 92vh;
   width: 100vw;
   max-width: 100%;
   overflow: auto;
@@ -97,6 +98,31 @@ export default defineComponent({
   .welcome-wrapper {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .welcome {
+    width: 30%;
+  }
+}
+
+@media (min-width: 3840px) {
+  .welcome-wrapper {
+    height: 95vh;
+    font-size: x-large;
+  }
+
+  .welcome {
+    width: 25%;
+  }
+
+  .welcome p {
+    font-size: x-large;
+  }
+
+  .welcome button {
+    font-size: x-large;
   }
 }
 </style>

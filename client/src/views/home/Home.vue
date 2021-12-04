@@ -39,4 +39,17 @@ export default defineComponent({
 .lds-ring {
   align-self: center;
 }
+
+@media (min-width: 2560px) {
+  .home {
+    height: 93vh;
+  }
+}
+
+
+@media (min-width: 3840px) {
+  .home {
+    height: 95vh;
+  }
+}
 </style>

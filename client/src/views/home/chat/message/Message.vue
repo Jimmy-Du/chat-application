@@ -40,4 +40,10 @@ export default defineComponent({
 .recieved {
   text-align: left;
 }
+
+@media (min-width: 2560px) {
+  .message {
+    font-size: large;
+  }
+}
 </style>

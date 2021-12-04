@@ -239,4 +239,25 @@ export default defineComponent({
     display: inline;
   }
 }
+
+@media (min-width: 2560px) {
+  .chat-prompt p {
+    font-size: x-large;
+  }
+  
+  .message-input button {
+    font-size: large;
+  }
+
+  .message-input input {
+    font-size: large;
+    width: 70%;
+  }
+}
+
+@media (min-width: 3840px) {
+  .messages {
+    height: 96%;
+  }
+}
 </style>

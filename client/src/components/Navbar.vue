@@ -44,4 +44,10 @@ export default defineComponent({
 .navbar a.router-link-exact-active {
   text-decoration: underline;
 }
+
+@media (min-width: 3840px) {
+  .navbar a {
+    font-size: x-large;
+  }
+}
 </style>

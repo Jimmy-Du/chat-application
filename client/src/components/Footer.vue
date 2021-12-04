@@ -23,4 +23,10 @@ export default defineComponent({
 .footer p {
   color: white;
 }
+
+@media (min-width: 3840px) {
+  .footer p {
+    font-size: large;
+  }
+}
 </style>
