@@ -30,7 +30,10 @@ export default defineComponent({
 <style scoped>
 .navbar {
   background-color: #0C4A6E;
-  padding: 0.5rem;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar a {
@@ -45,9 +48,15 @@ export default defineComponent({
   text-decoration: underline;
 }
 
-@media (min-width: 3840px) {
+@media (min-width: 2560px) {
   .navbar a {
     font-size: x-large;
+  }
+}
+
+@media (min-width: 3840px) {
+  .navbar a {
+    font-size: xx-large;
   }
 }
 </style>

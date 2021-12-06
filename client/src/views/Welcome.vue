@@ -42,7 +42,7 @@ export default defineComponent({
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 92vh;
+  height: 90vh;
   width: 100vw;
   max-width: 100%;
   overflow: auto;
@@ -109,7 +109,6 @@ export default defineComponent({
 
 @media (min-width: 3840px) {
   .welcome-wrapper {
-    height: 95vh;
     font-size: x-large;
   }
 

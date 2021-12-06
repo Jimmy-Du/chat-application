@@ -17,16 +17,25 @@ export default defineComponent({
 <style scoped>
 .footer {
   background-color: #0C4A6E;
-  padding: 0.5rem;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer p {
   color: white;
 }
 
-@media (min-width: 3840px) {
+@media (min-width: 2560px) {
   .footer p {
-    font-size: large;
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 3840px) {
+  .navbar a {
+    font-size: xx-large;
   }
 }
 </style>

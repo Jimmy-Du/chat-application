@@ -46,4 +46,10 @@ export default defineComponent({
     font-size: large;
   }
 }
+
+@media (min-width: 3840px) {
+  .message {
+    font-size: x-large;
+  }
+}
 </style>

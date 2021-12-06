@@ -103,13 +103,13 @@ li {
   margin-left: -45px;
   padding: 1rem;
   text-overflow: ellipsis;
-  background-color: #EF4444;
+  background-color: #F87171;
   text-align: left;
   border-bottom: 1px solid black;
 }
 
 li:hover {
-  background: #DC2626;
+  background: #EF4444;
 }
 
 button {

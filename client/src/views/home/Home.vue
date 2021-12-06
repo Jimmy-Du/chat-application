@@ -29,7 +29,7 @@ export default defineComponent({
 <style scoped>
 .home {
   display: flex;
-  height: 92vh;
+  height: 90vh;
   width: 100vw;
   max-width: 100%;
   background-color: #334155;
@@ -41,15 +41,11 @@ export default defineComponent({
 }
 
 @media (min-width: 2560px) {
-  .home {
-    height: 93vh;
-  }
+
 }
 
 
 @media (min-width: 3840px) {
-  .home {
-    height: 95vh;
-  }
+
 }
 </style>

@@ -217,4 +217,10 @@ export default defineComponent({
     margin-bottom: 10px;
   }
 }
+
+@media (min-width: 2560px) {
+  .search-results {
+    font-size: x-large;
+  }
+}
 </style>

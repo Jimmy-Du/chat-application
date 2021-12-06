@@ -259,5 +259,9 @@ export default defineComponent({
   .messages {
     height: 96%;
   }
+
+  .chat-prompt p {
+    font-size: xx-large;
+  }
 }
 </style>
