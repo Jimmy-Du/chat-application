@@ -4,7 +4,6 @@ import userRoute from './routers/user'
 import messageRoute from './routers/message'
 import conversationRoute from './routers/conversation'
 require('./db/mongoose')
-require('dotenv').config()
 
 const app: express.Application = express()
 
