@@ -7,6 +7,7 @@
   ·
   <a href="https://github.com/Jimmy-Du/chat-application/issues">Request Feature</a>
 </div>
+<p align='center'>Allow a couple of minutes for the application to fully wake up.</p>
 
 ## About The Project:
 I created this real time chat application as a way to better understand how chat applications in the real world work behind the scenes. This chat application is a web application that allows users to send text-based messages to one another in real time. It allows for user account creation and authentication in order to keep message and conversation data persistent everytime the user visits the website and when visiting on different devices. 
